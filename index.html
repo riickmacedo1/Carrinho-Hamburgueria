@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hamburgueria Do Zé</title>
+  </head>
+  <body>
+    <header>
+      <h2>Hamburgueria do Zé</h2>
+      <img src="/img/hamburg.png" alt="hamburguer artesanal" />
+    </header>
+
+    <div class="lista-cadastro">
+      <input type="text" placeholder="Nome do produto" name="nome_produto" />
+      <input type="number" step="0.01" name="price" />
+      <input type="submit" name="acao" value="comprar" />
+    </div>
+
+    <div class="lista-produtos">
+      <!--<div class="lista-produto-single">
+        <h3>Antartica</h3>
+        <h3 class="price-produto"><span>R$20,00</span></h3>
+      </div> -->
+    </div>
+
+    <div class="soma-produto">
+      <h1>R$ 0,00</h1>
+    </div>
+
+    <div class="botao">
+      <button name="limpar">Limpar Sacola</button>
+    </div>
+
+    <script src="hamburgueria.js"></script>
+  </body>
+</html>
